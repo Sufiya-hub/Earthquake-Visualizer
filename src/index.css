@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* small styles for custom marker tooltip */
+.custom-marker-circle {
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0.85;
+  border: 2px solid rgba(255,255,255,0.6);
+}
+
+.sidebar-scroll {
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+}
